@@ -1,0 +1,33 @@
+/* Estilo del título de las secciones. Se cambia color y se ajusta el espacio antes y después del título */
+h2 {
+    color: #ff671c;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+/* Estilo de pie de página se ajusta el color y el fondo y elespacio y alineado del texto */
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+/* Se ajusta el formato y márgenes de la barra de navegación, para que no deje espacios y se pueda ajustar el logo */
+.navbar {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color:  #0d6efd;
+}
+/* Esta sección controla el lugar en donde iniciara la ubicación del logo */
+.navbar-brand {
+    margin-left: -10px;
+    padding: 0px;
+}
+
+/* Controla el tamaño del logotipo y sus margenes superiores e izquierdo */
+.logo {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 200px;
+    height: 100%;
+}
