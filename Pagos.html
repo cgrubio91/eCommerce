@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Registro medio de pago</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="Pagos_estilos.css" />
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="text-black">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Icono de inicio -->
+                    <a href="index.html"><img src="icono.png" alt="Inicio" /></a>
+                </div>
+                <div class="col-md-8">
+                    <h1>Registro medio de pago</h1>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre en la tarjeta</label>
+                                        <input type="text" class="form-control" id="nombre" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="numero">Número de tarjeta</label>
+                                        <input type="text" class="form-control" id="numero" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="vencimiento">Fecha de vencimiento</label>
+                                        <input type="text" placeholder="mes/año" class="form-control" id="vencimiento"
+                                            required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" class="form-control" id="cvv" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="tipo">Tipo de tarjeta</label>
+                                        <select class="form-control" id="tipo" required>
+                                            <option value="" disabled selected>
+                                                Seleccione el tipo de tarjeta
+                                            </option>
+                                            <option value="visa">Visa</option>
+                                            <option value="mastercard">Mastercard</option>
+                                            <option value="american">Nequi</option>
+                                            <option value="american">Daviplata</option>
+                                            <option value="american">PayPal</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group text-center">
+                                        <button type="submit" class="btn btn-primary">
+                                            Registrar
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="p-3 mb-2 bg-info text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">Siguenos en nuestras redes sociales</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

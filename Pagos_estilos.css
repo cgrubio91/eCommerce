@@ -1,0 +1,9 @@
+body{
+    background: rgba(255, 255, 255, 0.407)
+}
+.container{
+    background: rgba(0, 0, 0, 0.392);
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
