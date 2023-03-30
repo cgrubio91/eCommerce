@@ -29,17 +29,13 @@
 </head>
 <body>
     <?php include('../Productos/menuProducto.php'); ?>
- 
-    <div class="container">
+     <div class="container">
         <br>
         <h2 class="text-center mb-5">Lista de Productos</h2>
-
             
         <div class="row">
             <?php
                 while ($p = mysqli_fetch_object($allProductos)){
-      
-
                     echo "<div class='col col-lg-3 col-md-4 col-sm-12'>";
                     echo "   <div class='card'>";
                     echo "        <img src='../imagenesProductos/" . $p->path_foto . "' class='card-img-top' alt='...'>";

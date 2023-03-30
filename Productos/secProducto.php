@@ -58,9 +58,6 @@ function muestraDetalle($opcion){
     <div class="container">
         <br>
         <h2 class="text-center mb-5">Sección - Productos</h2>
-
-
-        <!--       <form method="post" action=""> -->
         <div class="row mb-2">
             <div class="col">
 
@@ -93,18 +90,12 @@ function muestraDetalle($opcion){
 
             </div>
         </div>
-
-        <!--              </form> -->
+    </div>
+    <br>
     </div>
     <br>
 
-
-
-
-    </div>
-    <br>
     <!-- Footer -->
-
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">
@@ -120,17 +111,10 @@ function muestraDetalle($opcion){
             document.getElementById("idLista").value = opcion;
             var result ="<?php muestraDetalle(" + opcion+ "); ?>"
             document.write(result);
-
-            
-            
-           
-      /*       alert("Elegiste la opción con índice: " + opcion + " la cual contiene el valor: " + lista.options[opcion].firstChild.data); */
-  
     }
     </script>
 
     <!-- Se enlaza con javascript de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-
 </html>

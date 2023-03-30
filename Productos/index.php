@@ -33,9 +33,7 @@
     <div class="container">
         <br>
         <h2 class="text-center mb-5">Lista de Productos por Sección</h2>
-
-            
-                <?php
+          <?php
                 while ($s = mysqli_fetch_object($allSecciones)){?>
                     <div class="row">
                     <?php
@@ -45,15 +43,8 @@
                     echo   $s->seccionNombre;
                     echo "</h2>";
                     echo " </div> ";
-
                     ?>
                     </div>          
-                    
-                    
-
-
-
-
 
                     <div class="row">
                     <?php

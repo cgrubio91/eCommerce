@@ -39,8 +39,5 @@
             $remove = " DELETE FROM Seccion WHERE idSeccion = $idSeccion ";
             return mysqli_query($this->conn, $remove);
         }
-
-
-
     }
 ?>

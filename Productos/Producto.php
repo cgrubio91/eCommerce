@@ -52,10 +52,7 @@
             $nombreProducto = $params['nombre'];
             $descripcionProducto = $params['descripcion'];
             $seccionProducto = $params['idSeleccion'];
-/*             $precioProducto = $params['precio'];
-            $stockProducto = $params['stock']; */
             $fotoProducto = $params['image'];
-            /* $update = " UPDATE Producto SET nombre='$nombreProducto',descripcion='$descripcionProducto',seccionId='$seccionProducto',precio='$precioProducto',stock='$stockProducto',path_foto='$fotoProducto' WHERE codigo = $codigoProducto "; */
             $update = " UPDATE Producto SET nombre='$nombreProducto',descripcion='$descripcionProducto',seccionId='$seccionProducto',path_foto='$fotoProducto' WHERE codigo = $codigoProducto ";
             return mysqli_query($this->conn, $update);
         }
