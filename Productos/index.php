@@ -71,7 +71,10 @@
                     <?php
                 }
                 ?>
-            <br>           
+            <!-- $allSecciones = $s->getAllSecciones(); -->
+            <br>
+
+            
     </div>
     <br>
      <!-- Footer -->

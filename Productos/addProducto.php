@@ -13,8 +13,6 @@
             $_POST['image'] = saveImage($_FILES);
         }
 
-
-
         if ($_POST['cbDestacado']!=null) {
             $activo = 1;
         } else {
@@ -22,12 +20,6 @@
         }     
         $_POST['idDestacado'] = $activo; 
  
-
-
-
-
-
-
         $save = $producto->save($_POST);
         if ($save){
             $error = '<div class="alert alert-sucess" role="alert">Producto creado correctamente </div>';
