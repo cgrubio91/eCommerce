@@ -14,13 +14,6 @@
             $_POST['image'] = saveImage($_FILES);
         }
 
-/*         if ($_POST['cbDestacado']!=null) {
-            $activo = 1;
-        } else {
-            $activo = 0;
-        }     
-        $_POST['idDestacado'] = $activo;  */
- 
         if (isset($_POST) && !empty($_POST)){
             $update = $s->update($_POST);
             if ($update){
@@ -117,8 +110,7 @@
         </form>
     </div>
     <br>
-     <!-- Footer -->
-   
+     <!-- Footer --> 
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">
@@ -126,7 +118,6 @@
             </div>
         </div>   
     </footer>
-
 
     <script type="text/javascript">
         function verIndex() {
@@ -136,7 +127,6 @@
  /*            alert("Elegiste la opción con índice: " + opcion + " la cual contiene el valor: " + lista.options[opcion].firstChild.data); */        
         }
     </script>
-
 
     <!-- Se enlaza con javascript de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

@@ -53,13 +53,11 @@
                     <button class="btn btn-success">Modificar</button>
                 </div>
                 <div class="col-4"></div>
-            </div>
-            
+            </div>          
         </form>
     </div>
     <br>
-     <!-- Footer -->
-   
+     <!-- Footer -->   
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">

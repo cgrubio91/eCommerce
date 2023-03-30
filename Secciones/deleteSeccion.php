@@ -53,13 +53,11 @@
                     <button class="btn btn-success">Eliminar</button>
                 </div>
                 <div class="col-4"></div>
-            </div>
-            
+            </div>          
         </form>
     </div>
     <br>
      <!-- Footer -->
-   
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">

@@ -132,7 +132,6 @@
         </div>   
     </footer>
 
-
     <script type="text/javascript">
         function verIndex() {
             var lista = document.getElementById("seccionesLista");
@@ -140,7 +139,6 @@
             document.getElementById("idSeleccion").value = opcion;
  /*            alert("Elegiste la opción con índice: " + opcion + " la cual contiene el valor: " + lista.options[opcion].firstChild.data); */        }
     </script>
-
 
     <!-- Se enlaza con javascript de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

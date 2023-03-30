@@ -4,7 +4,6 @@
     $s = new Seccion();
 
     $allSecciones = $s->getAll();
-
     if (isset($_GET['idSeccion']) && !empty($_GET['idSeccion'])) {
         $remove = $s->remove($_GET['idSeccion']);
         if ($remove) {
@@ -44,19 +43,14 @@
                     echo "</h5>";
                     echo " <div class='text-center' ><a class='btn btn-success ' href='" . "editSeccion.php?idSeccion=$s->idSeccion' > Modificar </a> - <a class='btn btn-danger ' href='" . "deleteSeccion.php?idSeccion=$s->idSeccion' > Eliminar </a> </div>";
                     echo " </div> ";
-                    echo "</div>";
-                    
+                    echo "</div>";                   
                 }
-
                 ?>
             </div>
-            <br>
-
-            
+            <br>         
     </div>
     <br>
-     <!-- Footer -->
-   
+     <!-- Footer --> 
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">

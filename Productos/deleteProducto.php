@@ -58,8 +58,7 @@ include('Producto.php');
         </form>
     </div>
     <br>
-     <!-- Footer -->
-   
+     <!-- Footer --> 
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">

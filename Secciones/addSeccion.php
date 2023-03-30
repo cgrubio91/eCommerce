@@ -2,11 +2,8 @@
     include('../config/config.php');
     include('Seccion.php');
 
-
     if (isset($_POST) && !empty($_POST)){
         $seccion = new Seccion();
-
-
         $save = $seccion->save($_POST);
         if ($save){
             $error = '<div class="alert alert-sucess" role="alert">Sección creada correctamente </div>';
@@ -53,13 +50,12 @@
                     <button class="btn btn-success">Adicionar</button>
                 </div>
                 <div class="col-4"></div>
-            </div>
-            
+            </div>         
         </form>
     </div>
     <br>
-     <!-- Footer -->
-   
+    
+     <!-- Footer -->   
     <footer class="footer">
         <div class="container">
             <div class="row" data-bs-theme="dark">
