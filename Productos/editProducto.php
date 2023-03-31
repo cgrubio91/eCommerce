@@ -10,7 +10,7 @@
     if (isset($_POST) && !empty($_POST)){
         $producto = new Producto();
 
-        if ($_FILES['image']['name'] !== ''){
+        if ($_FILES['image']['name'] !== '' || $_FILES['image']['name'] !== null){
             $_POST['image'] = saveImage($_FILES);
         }
 
@@ -59,12 +59,12 @@
             <br>
             <div class="row mb-2">
                 <div class="col">
-                <textarea class="form-control" name="descripcion" text="text" placeholder="Descripción del Producto" id="descripcion" value=<?= $data->descripcion ?>></textarea>
+                <textarea class="form-control" name="descripcion" text="text" placeholder="Descripción del Producto" id="descripcion"><?= $data->descripcion ?></textarea>
                 </div>
                 <div class="col">                
                    <div class="form-group">
                         <label for="seccionesLista">Sección</label>
-                        <select class="form-select" id="seccionesLista" onchange="verIndex();">  
+                        <select class="form-select" name="idSeleccion" id="idSeleccion" onchange="verIndex();">  
                         <?php
                             while ($s = mysqli_fetch_object($allSecciones)){
                                 echo "<option value=\"$s->idSeccion\">$s->seccionNombre</option>";
@@ -72,7 +72,7 @@
                         ?>
                         </select>          
                     </div>
-                   <input type="hidden" name="idSeleccion" id="idSeleccion">
+                    
                 </div>
             </div>
             <br>

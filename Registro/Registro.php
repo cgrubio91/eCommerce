@@ -1,10 +1,17 @@
+<?php
+    include('../config/config.php');
+    include('../config/Database.php');
+    //include('../Productos/menuProducto.php');
+    
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Formulario de Registro</title>
-	<link rel="stylesheet" type="text/css" href="Registro.css">
+	<link rel="stylesheet" type="text/css" href="../css/Registro.css">
 </head>
 <body>
+<?php include('../Productos/menuProducto.php'); ?>
 	<form>
 		<h2>Registro Usuarios</h2>
 		<label for="nombre">Nombre:</label>

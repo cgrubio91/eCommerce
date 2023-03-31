@@ -113,16 +113,8 @@
             
         </form>
     </div>
-    <br>
-     <!-- Footer -->
-   
-    <footer class="footer">
-        <div class="container">
-            <div class="row" data-bs-theme="dark">
-                <p>Todos los derechos revervados.</p>
-            </div>
-        </div>   
-    </footer>
+<!-- Footer -->
+<?php include('../Productos/footer.php'); ?>
 
     <script type="text/javascript">
         function verIndex() {
