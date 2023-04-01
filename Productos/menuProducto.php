@@ -46,7 +46,7 @@
           <a class="nav-link" aria-current="page" href="../Carro.html">Carro de Compras</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="../pagos.html">Pagos</a>
+          <a class="nav-link" aria-current="page" href="../Pagos/Pagos.php">Pagos</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
